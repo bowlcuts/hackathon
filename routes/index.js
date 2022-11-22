@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/current-location', (req, res, next) => {
-  
+
 })
 
 
