@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-router.get('/current-location', (req, res, next) => {
-
-})
+router.post('/current-location', (req, res, next) => {
+  res.render('current-location');
+});
 
 
 
